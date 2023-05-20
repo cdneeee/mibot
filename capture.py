@@ -2,10 +2,14 @@ import numpy as np
 import cv2
 from PIL import ImageGrab as ig
 import time
+import pyautogui
+from directkeys import W, A, S, D, _, E, LM, RM, LSH
 
-def process_img(og_img):
 
-    processed_img = cv2.cvtColor(og_img, cv2.COLOR_BGR2GRAY)
+
+
+
+
 
 last_time = time.time()  # Get the current time
 
