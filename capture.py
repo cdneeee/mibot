@@ -27,6 +27,10 @@ while True:
     # Update the last_time variable to the current time
     last_time = time.time()
 
+    #Movement testing
+    #while (True):
+       # PressKey(keys['W'])
+
     # Check if the 'q' key is pressed to exit the loop
     if cv2.waitKey(25) & 0xFF == ord('q'):
         cv2.destroyAllWindows()  # Close the OpenCV window
