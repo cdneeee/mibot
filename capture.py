@@ -2,8 +2,9 @@ import numpy as np
 import cv2
 from PIL import ImageGrab as ig
 import time
-import pyautogui
-from directkeys import W, A, S, D, _, E, LM, RM, LSH
+#temporarily not using this
+#import pyautogui
+from directkeys import keys, PressKey, ReleaseKey
 
 
 
